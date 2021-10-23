@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://www.yonisfy.com/" style="background: white;">
-    <img src="https://raw.githubusercontent.com/mohammedelzanaty/mohammedelzanaty/main/logo.png" alt="Learn With Zanaty" width="120" />
+  <a href="https://www.yonisfy.com/">
+   <img src="https://raw.githubusercontent.com/mohammedelzanaty/mohammedelzanaty/main/logo.png" alt="Learn With Zanaty" width="120" style="background: white;" />
   </a>
 </p>
 <h1 align="center">
@@ -12,9 +12,9 @@
 
 ## Resources & Links
 
-[Redux Toolkit](https://redux-toolkit.js.org/)
-[Vite](https://vitejs.dev/guide/#trying-vite-online)
-[Modern Redux with Redux Toolkit](https://redux.js.org/tutorials/fundamentals/part-8-modern-redux)
-[RANDOM USER GENERATOR](https://randomuser.me/documentation#howto)
-[RTK Query Overview](https://redux-toolkit.js.org/rtk-query/overview)
-[Redux Toolkit Releases](https://github.com/reduxjs/redux-toolkit/releases)
+- [Redux Toolkit](https://redux-toolkit.js.org/)
+- [Vite](https://vitejs.dev/guide/#trying-vite-online)
+- [Modern Redux with Redux Toolkit](https://redux.js.org/tutorials/fundamentals/part-8-modern-redux)
+- [RANDOM USER GENERATOR](https://randomuser.me/documentation#howto)
+- [RTK Query Overview](https://redux-toolkit.js.org/rtk-query/overview)
+- [Redux Toolkit Releases](https://github.com/reduxjs/redux-toolkit/releases)
