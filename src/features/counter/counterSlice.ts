@@ -1,5 +1,4 @@
-import { createSlice } from '@reduxjs/toolkit'
-
+import { createSlice, PayloadAction } from '@reduxjs/toolkit'
 
 /**
  * createSlice -> accepts an object of reducer functions, a slice name, and an initial state value,
@@ -22,9 +21,18 @@ const counterSlice = createSlice({
       // it's okay to do this because immer make it immutable under the hood
       state.value++
     },
+    decrement: state => {
+      state.value--
+    },
+    reset: state => {
+      state.value = 0
+    },
+    incrementBy: (state, action: PayloadAction<number>) => {
+      state.value += action.payload
+    },
   },
 })
 
-export const { increment } = counterSlice.actions
+export const { increment, decrement, reset, incrementBy } = counterSlice.actions
 
 export default counterSlice.reducer

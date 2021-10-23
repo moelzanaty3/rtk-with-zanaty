@@ -28,8 +28,6 @@ body {
   color: white;
 }
 
-
-
 button {
   margin-left: 10px;
   display: inline-block;
@@ -59,7 +57,6 @@ input {
   background-clip: padding-box;
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
-  margin: 10px auto;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
@@ -79,6 +76,28 @@ button.info {
   color: #fff;
   background-color: #17a2b8;
   border-color: #17a2b8;
+}
+
+button.warning {
+  color: #212529;
+  background-color: #ffc107;
+  border-color: #ffc107;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.align-items-center {
+  align-items: center;
 }
 
 /* Counter */
