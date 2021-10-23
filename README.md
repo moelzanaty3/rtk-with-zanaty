@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://www.yonisfy.com/">
+  <a href="https://www.yonisfy.com/" style="background: white;">
     <img src="https://raw.githubusercontent.com/mohammedelzanaty/mohammedelzanaty/main/logo.png" alt="Learn With Zanaty" width="120" />
   </a>
 </p>
@@ -18,8 +18,3 @@
 [RANDOM USER GENERATOR](https://randomuser.me/documentation#howto)
 [RTK Query Overview](https://redux-toolkit.js.org/rtk-query/overview)
 [Redux Toolkit Releases](https://github.com/reduxjs/redux-toolkit/releases)
-
-
-
-
-
