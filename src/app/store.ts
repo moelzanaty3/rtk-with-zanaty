@@ -1,6 +1,6 @@
 import { configureStore } from '@reduxjs/toolkit'
 import counterReducer from '../features/counter/counterSlice'
-
+import usersReducer from '../features/users/usersSlice'
 /**
  * configureStore -> this is a wrapper around the basic Redux Create Store Function.
  * It automatically  a store with the right defaults. For example,
@@ -12,6 +12,7 @@ import counterReducer from '../features/counter/counterSlice'
 export const store = configureStore({
   reducer: {
     counter: counterReducer,
+    users: usersReducer,
   },
 })
 

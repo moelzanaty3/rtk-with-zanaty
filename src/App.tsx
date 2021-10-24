@@ -1,12 +1,11 @@
-import { useAppDispatch, useAppSelector } from './app/hooks'
 import Counter from './pages/Counter'
-import UsersListInit from './pages/UsersListInit'
+import UsersList from './pages/UsersList'
 
 function App() {
   return (
     <div className="App">
       {/* <Counter /> */}
-      <UsersListInit />
+      <UsersList />
     </div>
   )
 }
