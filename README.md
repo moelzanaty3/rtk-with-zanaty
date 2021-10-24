@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.yonisfy.com/">
-   <img src="https://raw.githubusercontent.com/mohammedelzanaty/mohammedelzanaty/main/logo.png" alt="Learn With Zanaty" width="120" style="background: white;" />
+   <img src="https://raw.githubusercontent.com/mohammedelzanaty/mohammedelzanaty/main/logo.png" alt="Learn With Zanaty" width="120" style="background: white !important;" />
   </a>
 </p>
 <h1 align="center">
