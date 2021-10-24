@@ -1,4 +1,4 @@
-function Counter() {
+function CounterInit() {
   return (
     <div>
       <header className="App-header">Redux Counter</header>
@@ -18,4 +18,4 @@ function Counter() {
   )
 }
 
-export default Counter
+export default CounterInit

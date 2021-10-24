@@ -2,6 +2,12 @@
 
 /* Global */
 
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
 body,
 html {
   margin: 0;
@@ -100,6 +106,84 @@ button.warning {
   align-items: center;
 }
 
+.flex-grow-1 {
+  flex-grow: 1 !important;
+}
+
+.flex-shrink-0 {
+  flex-shrink: 0 !important;
+}
+
+.row {
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.col-12 {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.col-md-6,
+.col-12 {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media (min-width: 768px) {
+  .col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+.card-title {
+  margin-bottom: 0.75rem;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
+
+.card-text {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.text-muted {
+  color: #6c757d !important;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem !important;
+}
+
+.card-subtitle {
+  margin-top: -0.375rem;
+  margin-bottom: 0;
+}
+
+.card-img-top {
+  width: 100%;
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+}
+
+.rounded-circle {
+  border-radius: 50% !important;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
 /* Counter */
 
 .Counter-actions {
@@ -119,4 +203,10 @@ button.warning {
   text-align: center;
   padding: 0;
   margin: 0;
+}
+
+/* Users */
+.users-container {
+  margin-top: 20px auto;
+  padding: 20px 20px 20px 20px;
 }
