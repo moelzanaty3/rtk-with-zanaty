@@ -18,3 +18,5 @@
 - [RANDOM USER GENERATOR](https://randomuser.me/documentation#howto)
 - [RTK Query Overview](https://redux-toolkit.js.org/rtk-query/overview)
 - [Redux Toolkit Releases](https://github.com/reduxjs/redux-toolkit/releases)
+- [The Dog API - Dogs as a Service](https://thedogapi.com/)
+- [The Dog API - Breads List](https://docs.thedogapi.com/api-reference/breeds/breeds-list)

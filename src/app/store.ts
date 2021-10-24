@@ -1,6 +1,7 @@
 import { configureStore } from '@reduxjs/toolkit'
 import counterReducer from '../features/counter/counterSlice'
 import usersReducer from '../features/users/usersSlice'
+import { apiSlice } from '../features/dogs/dogsApiSlice'
 /**
  * configureStore -> this is a wrapper around the basic Redux Create Store Function.
  * It automatically  a store with the right defaults. For example,
@@ -13,6 +14,10 @@ export const store = configureStore({
   reducer: {
     counter: counterReducer,
     users: usersReducer,
+    [apiSlice.reducerPath]: apiSlice.reducer,
+  },
+  middleware: getDefaultMiddleware => {
+    return getDefaultMiddleware().concat(apiSlice.middleware)
   },
 })
 
