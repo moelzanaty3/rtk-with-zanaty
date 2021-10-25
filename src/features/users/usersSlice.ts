@@ -1,5 +1,5 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit'
-import IUser from '../../interfaces/IUser'
+import IUser from './IUser'
 
 type UserState = {
   // In `status` we will watch

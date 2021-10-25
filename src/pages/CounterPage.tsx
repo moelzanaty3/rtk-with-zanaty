@@ -2,7 +2,7 @@ import React from 'react'
 import { useAppDispatch, useAppSelector } from '../app/hooks'
 import { decrement, increment, incrementBy, reset } from '../features/counter/counterSlice'
 
-function Counter() {
+function CounterPage() {
   const [value, setValue] = React.useState<number>(0)
   const count = useAppSelector(state => state.counter.value)
   const dispatch = useAppDispatch()
@@ -60,4 +60,4 @@ function Counter() {
   )
 }
 
-export default Counter
+export default CounterPage

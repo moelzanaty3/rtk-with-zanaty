@@ -1,10 +1,10 @@
 import React from 'react'
 import { useAppDispatch, useAppSelector } from '../app/hooks'
-import User from '../components/User'
+import User from '../features/users/User'
 import { fetchUsers } from '../features/users/usersSlice'
-import IUser from '../interfaces/IUser'
+import IUser from '../features/users/IUser'
 
-const UsersList = () => {
+const UsersPage = () => {
   const [value, setValue] = React.useState<number>(0)
   const users = useAppSelector(state => state.users)
   const dispatch = useAppDispatch()
@@ -42,4 +42,4 @@ const UsersList = () => {
     </div>
   )
 }
-export default UsersList
+export default UsersPage

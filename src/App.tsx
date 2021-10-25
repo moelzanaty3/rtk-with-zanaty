@@ -1,8 +1,8 @@
 import { Link, Redirect, Route, Switch } from 'react-router-dom'
 
-import Counter from './pages/Counter'
-import DogsList from './pages/DogsList'
-import UsersList from './pages/UsersList'
+import CounterPage from './pages/CounterPage'
+import DogsPage from './pages/DogsPage'
+import UsersPage from './pages/UsersPage'
 
 import Navigation from './components/Navigation'
 
@@ -12,9 +12,9 @@ function App() {
       <Navigation />
       {/*Switch to tell to React Router to load only one route at a time*/}
       <Switch>
-        <Route path="/" exact component={Counter} />
-        <Route path="/users" component={UsersList} />
-        <Route path="/dogs" component={DogsList} />
+        <Route path="/" exact component={CounterPage} />
+        <Route path="/users" component={UsersPage} />
+        <Route path="/dogs" component={DogsPage} />
         <Route
           path="/404"
           render={() => (

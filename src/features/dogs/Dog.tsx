@@ -1,4 +1,4 @@
-import { IDog } from '../interfaces/IDog'
+import { IDog } from './IDog'
 
 interface IPops {
   dog: IDog

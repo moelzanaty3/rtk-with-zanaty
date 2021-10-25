@@ -1,5 +1,5 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
-import { IDog } from '../../interfaces/IDog'
+import { IDog } from './IDog'
 
 const DOGS_API_KEY = 'c74ee653-3552-4f47-a703-feae3606401c'
 

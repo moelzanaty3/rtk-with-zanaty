@@ -14,8 +14,11 @@ export const store = configureStore({
   reducer: {
     counter: counterReducer,
     users: usersReducer,
+    // Add the generated reducer as a specific top-level slice
     [apiSlice.reducerPath]: apiSlice.reducer,
   },
+  // Adding the api middleware enables caching, invalidation, polling,
+  // and other useful features of `rtk-query`.
   middleware: getDefaultMiddleware => {
     return getDefaultMiddleware().concat(apiSlice.middleware)
   },

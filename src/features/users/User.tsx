@@ -1,4 +1,4 @@
-import IUser from '../interfaces/IUser'
+import IUser from './IUser'
 
 interface IPops {
   user: IUser
